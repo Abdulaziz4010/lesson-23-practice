@@ -1,0 +1,80 @@
+.site__section {
+  width: 100%;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  .site__cards {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .site__card {
+      width: 45%;
+      box-shadow: 0px 0px 10px 0px white;
+      background-color: #fff;
+      height: 100%;
+      padding: 20px;
+      display: flex;
+      gap: 60px;
+      .site__img__desc {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0px 0px;
+        h3 {
+          font-size: 25px;
+          font-weight: 700;
+        }
+        p {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 25px;
+          color: #000000;
+        }
+        .lending {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          span {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background-color: #00bafc;
+            color: transparent;
+          }
+          p {
+            padding: 0px 25px;
+            font-size: 18px;
+            font-weight: 500;
+            color: #000000;
+          }
+        }
+        .site__btn {
+          display: flex;
+          gap: 20px;
+          padding: 30px 0;
+          align-items: center;
+          button {
+            width: 200px;
+            height: 40px;
+            padding: 8px 16px;
+            border: none;
+            background-color: #00bafc;
+            border-radius: 8px;
+            font-size: 18px;
+            color: white;
+            cursor: pointer;
+            outline: none;
+          }
+          ul li a {
+            color: #00bafc;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
